@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CommandLine.cpp" />
+    <ClCompile Include="Injector.cpp" />
+    <ClCompile Include="..\NInjectLib\GenericInjector.cpp">
+      <Filter>NInjectLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NInjectLib\IATModifier.cpp">
+      <Filter>NInjectLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NInjectLib\InjectLib.cpp">
+      <Filter>NInjectLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NInjectLib\Process.cpp">
+      <Filter>NInjectLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NInjectLib\RemoteLibCall.cpp">
+      <Filter>NInjectLib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommandLine.h" />
+    <ClInclude Include="Injector.h" />
+    <ClInclude Include="..\NInjectLib\GenericInjector.h">
+      <Filter>NInjectLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NInjectLib\IATModifier.h">
+      <Filter>NInjectLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NInjectLib\InjectLib.h">
+      <Filter>NInjectLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NInjectLib\Process.h">
+      <Filter>NInjectLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NInjectLib\RemoteLibCall.h">
+      <Filter>NInjectLib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="NInjectLib">
+      <UniqueIdentifier>{4fdbff9c-82ef-4a15-a97f-241a433bf3ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
