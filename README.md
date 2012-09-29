@@ -6,11 +6,11 @@ As I wasn't able to find an equivalent project, I decided to create my own one. 
 
 Command Line Options
 --------------
-  -h [ --help ]         show help message
-  -r [ --run ] arg      starts supplied executable and injects the DLL before any other DLL is loaded or the entry point is reached
-  -p [ --pid ] arg      injects DLL into a running process denoted by supplied PID
-  -s [ --suspend ]      pause process after DLL injection. Useful for debugging
-  -d [ --dll ] arg      DLL to be injected
+*  -h [ --help ]         show help message
+*  -r [ --run ] arg      starts supplied executable and injects the DLL before any other DLL is loaded or the entry point is reached
+*  -p [ --pid ] arg      injects DLL into a running process denoted by supplied PID
+*  -s [ --suspend ]      pause process after DLL injection. Useful for debugging
+*  -d [ --dll ] arg      DLL to be injected
 
 
 Examples
